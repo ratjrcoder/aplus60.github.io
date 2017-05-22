@@ -1,0 +1,6 @@
+./Accessibility/index.html
+./Blog/index.html
+./Research/index.html
+./Technology/index.html
+./Vid/index.html
+
