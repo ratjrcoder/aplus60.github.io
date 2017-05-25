@@ -4,17 +4,19 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Accessibility Plus 60</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link href="css/styles.css" type="text/css" rel="stylesheet">
     </head>
+<!--Wrapper centers all content on page-->
+
     <body>
-
-        <!-- Add your site or application content here -->
-        <img src="./logo/ap60_logo.png" alt="Accessibility Plus 60 logo. Red chalk-drawn A+ right angled over bold 60" width="500" height="512">
-        <H1>Accessibility Plus 60, the new gold standard of Web Accessibility for Seniors</H1>
-
-          <nav>
+<!-- /header -->
+    <section>
+      <header id="header" class="">
+        <img id="coverlogo" src="./logo/ap60_logo.png" alt="Accessibility Plus 60 logo. Red chalk-drawn A+ right angled over bold 60" > <!--width="500" height="512"-->
+        <aside id="sidebar">
+          <nav id="menu">
               <ul>
                 <li><a href="research.html">Research</a></li>
                 <li><a href="technology.html">Technology</a></li>
@@ -23,9 +25,17 @@
                 <li><a href="video.html">Video</a>
                 <li><a href="faq.html">FAQ</a></li>
               </ul>
-
           </nav>
-
+    </aside>
+        <h1>Accessibility Plus 60</h1>
+        <p id="subtitle">The <em>new</em> gold standard of Web Accessibility for Seniors</p>
+        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsa repudiandae facilis quod nisi quaerat quia minus modi quas sapiente, adipisci dolor laudantium quibusdam qui facere tempore totam omnis dolores.</p>
+        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsa repudiandae facilis quod nisi quaerat quia minus modi quas sapiente, adipisci dolor laudantium quibusdam qui facere tempore totam omnis dolores.</p>
+        <p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsa repudiandae facilis quod nisi quaerat quia minus modi quas sapiente, adipisci dolor laudantium quibusdam qui facere tempore totam omnis dolores.</p>
+       </header>
+    </section>
+    <section id="form">
+      <h3>Stay informed</h3>
             <form action="https://httpbin.org/post" method="post">
               <fieldset>
                 <legend>Email Signup</legend>
@@ -41,21 +51,28 @@
                   <option value="90-99">90 - 99</option>
                   <option value="over100">over 100</option>
                 </select>
-
-
-                Subscribe to email list:
+              Subscribe to email list:
                   <button type="submit" formaction="thank-you.html" value="submit to another page">Submit your application</button>
               </fieldset>
-     </form> <br /> <br />
+              </form>
+      </section>
 
-     <p>Thanks <a href="https://www.pexels.com/photo/under-construction-signage-on-laptop-keyboard-211122/">Fernando Arcos</a> Pexel user for the <a href="https://www.pexels.com/photo-license/">publicly licensed photo</a> Under Construction, used throughout this site.</p>
-
-<nav>Quick links:<span>   </span><a href="research.html">Research   </a>
+     <br />
+     <br />
+      <section>
+      <h4>Credits</h4>
+         <p class="intro">Thanks <a href="https://www.pexels.com/photo/under-construction-signage-on-laptop-keyboard-211122/">Fernando Arcos</a> Pexel user for the <a href="https://www.pexels.com/photo-license/">publicly licensed photo</a> Under Construction, used throughout this site.</p>
+      </section>
+      <footer>
+      <nav id="fmenu">Quick links:<span>   </span><a href="research.html">Research   </a>
                 <a href="technology.html"><span>        Technology</span></a>
                 <a href="accessibility.html"><span>        Accessiblity on the Web</span></a>
                 <a href="blog.html"><span>        Blog</span></a>
                 <a href="video.html"><span>        Video</span></a>
                 <a href="faq.html"><span>        FAQ</span></a>
             </nav>
+      <p id="copyright">&copy; 2017 A+60 | All Rights Reserved  </p>
+      </footer>
     </body>
+
 </html>

@@ -1,3 +1,76 @@
+/* 4. A background image on at least one element.*/
+html {
+  font-family: Helvetica;
+  background-image: url("../img/bg-square.gif");
+  background-repeat: repeat;
+}
+/*2. Margin added to at least one element*/
+h1 {
+  text-align: center;
+  line-height: .1em;
+  margin-top: 10px;
+}
+#subtitle {
+  text-align: center;
+  font-weight: bold;
+}
 body {
-  background: lightblue;
+  background: white;
+  width:80%;
+  margin: 5% 10% 10% 10%;
+}
+/*1. Padding and border added to at least one element*/
+#menu {
+  border: solid black .09em;
+  border-radius: .5em;
+  width: 30%;
+  margin: 10px;
+  background: lightyellow;
+  padding: 1em;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/*7. A different color for visited links*/
+a:visited {
+  color: deeppink;
+}
+#coverlogo {
+  display: inline-block;
+  width:10em;
+
+}
+/*An element styled with an ID*/
+#form {
+  margin: auto;
+  width: 30%;
+}
+/*1. Padding and border added to at least one element*/
+/*6. A few elements styled using a class*/
+.intro {
+  padding: 10px;
+  color: gray;
+}
+
+/*3. At least one centered element (a footer message can be nice for this) */
+/*5. A different font on at least one element.*/
+#copyright{
+  text-align: center;
+  margin: 5em;
+  font-family: courier;
+}
+#fmenu {
+  margin: auto;
+  width: 60%;
+  border: 1px solid black;
+  background: lightyellow;
+  padding: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    h1 {
+        background-color: hotpink;
+    }
 }
