@@ -1,3 +1,24 @@
+/*Build a Responsive Grid-View*/
+* {
+  box-sizing: border-box;
+}
+ /* activate this border property for visual confirmation.
+.header {
+  border:1px solid red;
+}*/
+.main {
+  width: 75%;
+  float:left;
+  padding: 15px;
+  /* activate this border property for visual confirmation.
+  border:1px solid red;*/
+}
+#menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
 /* 4. A background image on at least one element.*/
 html {
   font-family: Helvetica;
@@ -23,10 +44,8 @@ body {
 #menu {
   border: solid black .09em;
   border-radius: .5em;
-  width: 30%;
-  margin: 10px;
   background: lightyellow;
-  padding: 1em;
+
 }
 li {
   list-style-type: none;
@@ -69,8 +88,16 @@ a:visited {
   padding: 10px;
 }
 
-@media screen and (min-width: 400px) {
+/* Release 2. Make it Responsive: Add at least one media query to improve the responsiveness of your page.*/
+
+@media screen and (min-width: 300px) {
     h1 {
-        background-color: hotpink;
+        font-size: 5.0vw;
+    }
+    h2 {
+      font-size: 3.0vw;
+    }
+    p{
+      font-size: 2vmin;
     }
 }
